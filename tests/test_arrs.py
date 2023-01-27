@@ -13,4 +13,3 @@ def test_slice():
     assert arrs.my_slice([], 1, 2) == []
     assert arrs.my_slice([1, 2, 3, 4], -6, 1) == [1]
     assert arrs.my_slice([1, 2, 3], -2) == [2, 3]
-
